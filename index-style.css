@@ -1,27 +1,19 @@
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-left: 25%;
 }
 
 .logo {
-    height: 50vw;
+    height: 10%;
+    width: 20%;
+}
+
+
+
+
+/*height: 50vw;
     width: 60%;
     position: absolute;
     left: -20vw;
-    top: -15vw;
-}
-
-.menu-navbar, .menu-navbar-ul {
-    display: flex;
-    width: 80%;
-}
-
-.menu-navbar-ul {
-    list-style-type: none;
-    margin: 10px;
-}
-
-.menu-navbar-il {
-    margin: 10px;
-}
+    top: -15vw;*/
