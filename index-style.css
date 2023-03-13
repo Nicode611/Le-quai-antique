@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.logo {
+    height: 50vw;
+    width: 60%;
+    position: absolute;
+    left: -20vw;
+    top: -15vw;
+}
+
+.menu-navbar, .menu-navbar-ul {
+    display: flex;
+    width: 80%;
+}
+
+.menu-navbar-ul {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.menu-navbar-il {
+    margin: 10px;
+}
