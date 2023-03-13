@@ -1,9 +1,47 @@
-.logo {
-    height: 10%;
-    width: 20%;
+html {
+    background-color: #F1ECE2;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F120B;
+}
 
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-menu, .navbar-ul {
+    display: flex;
+}
+
+.navbar-menu {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar-ul {
+    list-style-type: none;
+}
+
+.navbar-li {
+    margin: 40px;
+    color: #F1ECE2;
+}
+
+.navbar-a:visited, .navbar-a:active, .navbar-a {
+    color: #F1ECE2;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.container-connect {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
 
 
 /*height: 50vw;
