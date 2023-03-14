@@ -1,11 +1,13 @@
-html {
+main * {
     background-color: #F1ECE2;
 }
+
+
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F120B;
+    background-color: #5A3E29;
 }
 
 .logo {
@@ -24,6 +26,7 @@ header {
 
 .navbar-ul {
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 .navbar-li {
@@ -43,9 +46,45 @@ header {
     margin: 20px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 
-/*height: 50vw;
-    width: 60%;
-    position: absolute;
-    left: -20vw;
-    top: -15vw;*/
+.container-top {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 50px;
+}
+
+.top {
+    color: #677423;
+    font-size: 32px;
+}
+
+.container-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.middle {
+    font-size: 28px;
+    margin: 0px;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 50px;
+}
+
+.bottom {
+    color: #677423;
+    font-size: 32px;
+}
