@@ -2,21 +2,28 @@ main * {
     background-color: #F1ECE2;
 }
 
-
-
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #5A3E29;
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #5A3E29;
 }
 
 .navbar-menu, .navbar-ul {
     display: flex;
+    justify-content: center;
 }
 
 .navbar-menu {
@@ -41,9 +48,9 @@ header {
 }
 
 .container-connect {
-    display: flex;
-    align-items: flex-start;
-    margin: 20px;
+    position: absolute;
+    right: 20px;
+    margin: 40px;
 }
 
 main {
@@ -87,4 +94,33 @@ main {
 .bottom {
     color: #677423;
     font-size: 32px;
+}
+
+.raclette {
+    height: 40vh;
+    width: 50vw;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: transparent;
+}
+
+.horaires-container {
+    padding-top: 50px;
+    padding-right: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.voir-horaires {
+    margin: 0px;
+    line-height: 1.20rem;
+}
+
+.triangle {
+    height: 30px;
+    width: 70px;
+    transform: scaleY(-1);
 }
