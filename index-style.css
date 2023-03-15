@@ -176,3 +176,15 @@ main {
     color: #5A3E29;
     text-decoration: none;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5A3E29;
+    padding: 20px;
+}
+
+.section-footer {
+    text-align: center;
+    color: #F1ECE2;
+}
