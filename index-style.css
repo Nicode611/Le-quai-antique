@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'OPTINaval';
+    src:url('OPTINaval.ttf.woff') format('woff'),
+        url('OPTINaval.ttf.svg#OPTINaval') format('svg'),
+        url('OPTINaval.ttf.eot'),
+        url('OPTINaval.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 main * {
     background-color: #F1ECE2;
 }
@@ -6,6 +16,8 @@ header {
     display: flex;
     justify-content: center;
     background-color: #5A3E29;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -53,6 +65,19 @@ header {
     margin: 40px;
 }
 
+.user {
+    height: 40px;
+    width: 40px;
+}
+
+.connect {
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: #F1ECE2;
+    font-weight: 600;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -63,11 +88,13 @@ main {
     justify-content: flex-end;
     text-align: center;
     padding: 50px;
+    margin-top: 110px;
 }
 
 .top {
     color: #677423;
     font-size: 32px;
+    font-family: 'OPTINaval';
 }
 
 .container-middle {
@@ -82,27 +109,41 @@ main {
 .middle {
     font-size: 28px;
     margin: 0px;
+    font-family: 'OPTINaval';
+}
+
+.middle-line {
+    border-top: solid 1px black;
+    height: 1px;
+    width: 100px;
+    margin: 19px;
 }
 
 .container-bottom {
     display: flex;
     justify-content: flex-start;
     text-align: center;
-    padding: 50px;
+    padding: 45px;
 }
 
 .bottom {
     color: #677423;
     font-size: 32px;
+    font-family: 'OPTINaval';
 }
 
 .raclette {
-    height: 40vh;
+    height: 23vw;
     width: 50vw;
     position: absolute;
     right: 0px;
     bottom: 0px;
     background-color: transparent;
+}
+
+.raclette-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .horaires-container {
@@ -112,6 +153,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .voir-horaires {
@@ -123,4 +165,14 @@ main {
     height: 30px;
     width: 70px;
     transform: scaleY(-1);
+    margin-bottom: 11px;
+}
+
+.click-horaires:hover, .navbar-a:hover, .logo:hover {
+    zoom: 110%;
+}
+
+.click-horaires {
+    color: #5A3E29;
+    text-decoration: none;
 }
