@@ -1,3 +1,6 @@
+
+  
+  
 @font-face {
     font-family: 'OPTINaval';
     src:url('OPTINaval.ttf.woff') format('woff'),
@@ -33,7 +36,7 @@ header {
     background-color: #5A3E29;
 }
 
-.navbar-menu, .navbar-ul {
+nav, ul {
     display: flex;
     justify-content: center;
 }
@@ -64,6 +67,15 @@ header {
     right: 20px;
     margin: 40px;
 }
+
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }  
+
 
 .user {
     height: 40px;
@@ -188,3 +200,44 @@ footer {
     text-align: center;
     color: #F1ECE2;
 }
+
+@media screen and (max-width: 980px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #5A3E29;
+      padding: 10px;
+      
+    }
+  
+    nav ul.show {
+      display: flex;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+
+    .navbar-li {
+        border-bottom: 1px solid #F1ECE2;
+        border-left: 1px solid #F1ECE2;
+        padding-left: 20px;
+    }
+
+    .logo {
+        z-index: 1;
+    }
+  
+    .hamburger {
+      display: block;
+      margin: 50px;
+      border: solid 1px black;
+      border-radius: 7px;
+      background-color: #F1ECE2;
+      box-shadow: 0px 0px 10px black;
+    }
+  }
