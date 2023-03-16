@@ -48,7 +48,7 @@ nav, ul {
     margin-bottom: 0px;
 }
 
-.navbar-li {
+.navbar-li, .navbar-li-connect {
     margin: 40px;
     color: #F1ECE2;
 }
@@ -62,7 +62,6 @@ nav, ul {
 .container-connect {
     position: absolute;
     right: 20px;
-    margin: 40px;
 }
 
 .hamburger {
@@ -97,7 +96,7 @@ main {
     justify-content: flex-end;
     text-align: center;
     padding: 50px;
-    margin-top: 110px;
+    padding-top: 150px;
 }
 
 .top {
@@ -201,6 +200,15 @@ footer {
 
 
 @media screen and (max-width: 980px) {
+
+    header {
+        justify-content: flex-end;
+    }
+
+    main {
+        padding-top: 50px;
+    }
+
     nav ul {
       display: none;
       flex-direction: column;
@@ -229,6 +237,12 @@ footer {
         list-style-type: disc;
     }
 
+    .container-connect {
+        position: inherit;
+        display: flex;
+        justify-content: center;
+    }
+
     .logo {
         z-index: 1;
     }
@@ -240,13 +254,73 @@ footer {
       border-radius: 7px;
       background-color: #F1ECE2;
       box-shadow: 0px 0px 10px black;
+      position: sticky;
+      right: 5px;
     }
   }
 
 /*----reserver.html----*/
 
 
+.carte-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 130px;
+    font-family: 'OPTINaval';
+}
+
 .carte-title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.carte-titles, .carte-food-content, .carte-menu-titles, .carte-menu-content {
     text-align: center;
-    padding-top: 150px;
+}
+
+.carte-titles, .carte-menu-titles {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.carte-titles {
+    color: #677423;
+}
+
+.carte-menu-titles {
+    color: #5A3E29;
+}
+
+.carte-food {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carte-sections {
+    padding: 20px;
+}
+
+.carte-menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carte-menu-titles {
+    padding: 10px;
+}
+
+.carte-menu-sections {
+    border: solid 1px #5A3E29;
+    width: 100%;
+}
+
+.carte-desserts {
+    padding-bottom: 150px;
 }
