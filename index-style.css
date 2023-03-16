@@ -216,6 +216,8 @@ footer {
   
     nav ul.show {
       display: flex;
+      border-top: solid 3px #F1ECE2;
+      border-bottom: solid 3px #F1ECE2;
     }
   
     nav ul li {
@@ -223,9 +225,9 @@ footer {
     }
 
     .navbar-li {
-        border-bottom: 1px solid #F1ECE2;
-        border-left: 1px solid #F1ECE2;
-        padding-left: 20px;
+        border-left: 2px solid #F1ECE2;
+        padding-left: 10px;
+        list-style-type: disc;
     }
 
     .logo {
