@@ -176,7 +176,9 @@ main {
     margin-bottom: 11px;
 }
 
-.click-horaires:hover, .navbar-a:hover, .logo:hover {
+
+
+.click-horaires:hover, .logo:hover {
     zoom: 110%;
 }
 
@@ -314,13 +316,21 @@ footer {
 
 .carte-menu-titles {
     padding: 10px;
+    background-color: transparent;
 }
 
 .carte-menu-sections {
-    border: solid 1px #5A3E29;
+    border: solid 2px #5A3E29;
+    border-radius: 10px;
     width: 100%;
 }
 
 .carte-desserts {
     padding-bottom: 150px;
+}
+
+
+
+.navbar-a:hover {
+    text-shadow: 0px 0px 10px;
 }
