@@ -16,9 +16,14 @@ header {
     display: flex;
     justify-content: center;
     background-color: #5A3E29;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #5A3E29 40px ), repeating-linear-gradient( #49322055, #493220 );
+    box-shadow: 5px 0px 10px;
     position: fixed;
     width: 100%;
 }
+
+
 
 .logo {
     height: 200px;
@@ -30,7 +35,7 @@ header {
 .nav-container {
     display: flex;
     justify-content: center;
-    background-color: #5A3E29;
+    background-color: transparent;
 }
 
 nav, ul {
@@ -179,7 +184,7 @@ main {
 
 
 .click-horaires:hover, .logo:hover {
-    zoom: 110%;
+    zoom: 102%;
 }
 
 .click-horaires {
@@ -191,6 +196,8 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: #5A3E29;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #5A3E29 40px ), repeating-linear-gradient( #49322055, #493220 );
     padding: 20px;
 }
 
