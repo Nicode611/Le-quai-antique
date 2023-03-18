@@ -24,8 +24,6 @@ header {
     z-index: 999;
 }
 
-
-
 .logo {
     height: 200px;
     width: 200px;
@@ -94,6 +92,8 @@ nav, ul {
     text-decoration: none;
 }
 
+/*----content-index.html----*/
+
 main {
     padding-top: 130px;
     background-color: #F1ECE2;
@@ -101,15 +101,17 @@ main {
 
 .container-top {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .top {
     color: #677423;
     font-size: 32px;
     font-family: 'OPTINaval';
+    padding: 20px;
 }
 
 .carousel-inner {
@@ -127,11 +129,17 @@ main {
 
 .container-middle {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 30px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .middle {
@@ -147,6 +155,13 @@ main {
     margin: 19px;
 }
 
+.container-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-bottom {
     display: flex;
     justify-content: flex-start;
@@ -160,19 +175,6 @@ main {
     font-family: 'OPTINaval';
 }
 
-.raclette {
-    height: 23vw;
-    width: 50vw;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    background-color: transparent;
-}
-
-.raclette-container {
-    display: flex;
-    justify-content: space-between;
-}
 
 .horaires-container {
     padding-top: 50px;
