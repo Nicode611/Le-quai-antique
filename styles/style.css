@@ -53,7 +53,7 @@ nav, ul {
     margin-bottom: 0px;
 }
 
-.navbar-li, .navbar-li-connect {
+.navbar-li {
     margin: 40px;
     color: #F1ECE2;
 }
@@ -67,6 +67,7 @@ nav, ul {
 .container-connect {
     position: absolute;
     right: 20px;
+    margin: 40px;
 }
 
 .hamburger {
