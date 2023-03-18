@@ -303,7 +303,12 @@ footer {
     border-radius: 15px;
 }
 
-
+.reserver-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
