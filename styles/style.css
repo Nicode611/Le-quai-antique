@@ -93,8 +93,8 @@ nav, ul {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+    padding-top: 130px;
+    background-color: #F1ECE2;
 }
 
 .container-top {
@@ -102,7 +102,6 @@ main {
     justify-content: flex-end;
     text-align: center;
     padding: 50px;
-    padding-top: 150px;
 }
 
 .top {
@@ -209,74 +208,15 @@ footer {
 
 
 
-@media screen and (max-width: 980px) {
 
-    header {
-        justify-content: flex-end;
-    }
 
-    main {
-        padding-top: 50px;
-    }
-
-    nav ul {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      background-color: #5A3E29;
-      padding: 10px;
-      
-    }
-  
-    nav ul.show {
-      display: flex;
-      border-top: solid 3px #F1ECE2;
-      border-bottom: solid 3px #F1ECE2;
-    }
-  
-    nav ul li {
-      margin: 10px 0;
-    }
-
-    .navbar-li {
-        border-left: 2px solid #F1ECE2;
-        padding-left: 10px;
-        list-style-type: disc;
-    }
-
-    .container-connect {
-        position: inherit;
-        display: flex;
-        justify-content: center;
-    }
-
-    .logo {
-        z-index: 1;
-    }
-  
-    .hamburger {
-      display: block;
-      margin: 50px;
-      border: solid 1px black;
-      border-radius: 7px;
-      background-color: #F1ECE2;
-      box-shadow: 0px 0px 10px black;
-      position: sticky;
-      right: 5px;
-    }
-  }
-
-/*----reserver.html----*/
+/*----carte.html----*/
 
 
 .carte-main-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 130px;
     font-family: 'OPTINaval';
 }
 
@@ -342,3 +282,101 @@ footer {
 .navbar-a:hover {
     text-shadow: 0px 0px 10px;
 }
+
+
+/*----reserver.html----*/
+
+.reserver-main-content {
+    padding: 5vw;
+
+}
+
+.reserver-title {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-family: 'OPTINaval';
+}
+
+.reserver-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    background-color: white;
+    border: solid 5px #5A3E29;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+
+    header {
+        justify-content: flex-end;
+    }
+
+    nav ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #5A3E29;
+      padding: 10px;
+      
+    }
+  
+    nav ul.show {
+      display: flex;
+      border-top: solid 3px #F1ECE2;
+      border-bottom: solid 3px #F1ECE2;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+
+    .navbar-li {
+        border-left: 2px solid #F1ECE2;
+        padding-left: 10px;
+        list-style-type: disc;
+    }
+
+    .container-connect {
+        position: inherit;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        z-index: 1;
+    }
+  
+    .hamburger {
+      display: block;
+      margin: 50px;
+      border: solid 1px black;
+      border-radius: 7px;
+      background-color: #F1ECE2;
+      box-shadow: 0px 0px 10px black;
+      position: sticky;
+      right: 5px;
+    }
+
+    /*----carte.html----*/
+
+    .carte-title {
+        padding-top: 70px;
+    }
+
+    /*----carte.html----*/
+
+  }
