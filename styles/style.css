@@ -90,6 +90,7 @@ nav, ul {
     background-color: transparent;
     color: #F1ECE2;
     font-weight: 600;
+    text-decoration: none;
 }
 
 main {
@@ -282,8 +283,11 @@ footer {
 /*----reserver.html----*/
 
 .reserver-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5vw;
-
 }
 
 .reserver-title {
@@ -297,10 +301,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10vw;
-    background-color: white;
+    background-color: #F1ECE2;
     border: solid 5px #5A3E29;
     border-radius: 15px;
+    padding: 1vw;
 }
 
 .reserver-form {
@@ -311,10 +315,44 @@ footer {
 }
 
 
+/*----sign-form.html----*/
 
+.sign-form-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+}
 
+.sign-form-title {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-family: 'OPTINaval';
+}
 
+.sign-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1ECE2;
+    border: solid 5px #5A3E29;
+    border-radius: 15px;
+    padding: 1vw;
+}
 
+.sign-form-inline {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-form-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (max-width: 980px) {
 
