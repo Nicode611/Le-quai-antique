@@ -107,24 +107,24 @@ main {
     padding-top: 50px;
 }
 
-.top {
+.top-title {
     color: #677423;
     font-size: 32px;
     font-family: 'OPTINaval';
     padding: 20px;
 }
 
-.carousel-inner {
+
+.diapo {
     height: 250px;
     overflow: hidden;
 }
 
-.carousel-item img {
+.diapo-item {
     height: auto;
     width: 100%; /* 100% de la largeur pour s'adapter au carré */
     margin-top: -70%; /* décale l'image de 50% vers le haut pour afficher le centre */
     position: relative; /* pour que la marge n'affecte pas la position de l'image */
-
 }
 
 .container-middle {
@@ -133,12 +133,13 @@ main {
     align-items: center;
     text-align: center;
     padding: 30px;
+    padding-top: 100px;
 }
 
 .container-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -160,6 +161,21 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.galerie {
+    height: 500px;
+    overflow: hidden;
+}
+
+.galerie-item {
+    height: auto;
+    width: 100%; /* 100% de la largeur pour s'adapter au carré */
+    /* margin-top:; décale l'image de 50% vers le haut pour afficher le centre */
+    position: relative; /* pour que la marge n'affecte pas la position de l'image */
 }
 
 .container-bottom {
@@ -173,17 +189,16 @@ main {
     color: #677423;
     font-size: 32px;
     font-family: 'OPTINaval';
+    padding-top: 70px;
 }
 
 
 .horaires-container {
     padding-top: 50px;
-    padding-right: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .voir-horaires {
@@ -330,6 +345,9 @@ footer {
     align-items: center;
 }
 
+.input-date, .select-heure {
+    background-color: white;
+}
 
 /*----sign-form.html----*/
 
