@@ -18,7 +18,7 @@ header {
     background-color: #5A3E29;
     opacity: 1;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #5A3E29 40px ), repeating-linear-gradient( #49322055, #493220 );
-    box-shadow: 5px 0px 10px;
+    box-shadow: 5px 0px 20px;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -109,15 +109,18 @@ main {
 
 .top-title {
     color: #677423;
+    background-color: transparent;
     font-size: 32px;
     font-family: 'OPTINaval';
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 
 .diapo {
     height: 250px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px;
 }
 
 .diapo-item {
@@ -229,6 +232,7 @@ footer {
     opacity: 1;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #5A3E29 40px ), repeating-linear-gradient( #49322055, #493220 );
     padding: 20px;
+    box-shadow: -5px 0px 20px;
 }
 
 .section-footer {
@@ -399,6 +403,17 @@ footer {
     align-items: center;
 }
 
+
+/*----espace-perso.html----*/
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 980px) {
 
     header {
@@ -460,6 +475,5 @@ footer {
         padding-top: 70px;
     }
 
-    /*----carte.html----*/
-
   }
+
