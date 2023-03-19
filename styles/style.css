@@ -349,6 +349,17 @@ footer {
     background-color: white;
 }
 
+.date, .heure {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
 /*----sign-form.html----*/
 
 .sign-form-main-content {

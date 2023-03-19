@@ -38,18 +38,29 @@
                 <form class="reserver-form p-5">
                     <label for="customRange2" class="form-label">Nombre de personnes : 0</label>
                     <input type="range" class="form-range" min="1" max="10" id="customRange2">
-                    <label class="label-date" for="date">Jour de la réservation :</label>
-                    <input type="date" class="input-date" id="date">
-                    <label class="p-2" for="heure">Heure de la réservation :</label>
-                    <select class="select-heure" id="heure" name="heure">                        <option value="12:00">12:00</option>
-                      <option value="12:30">12:30</option>
-                      <option value="13:00">13:00</option>
-                      <option value="13:30">13:30</option>
-                      <option value="19:00">19:00</option>
-                      <option value="19:30">19:30</option>
-                      <option value="20:00">20:00</option>
-                      <option value="20:30">20:30</option>
-                    </select>
+                    <div class="time">
+                      <div class="date">
+                        <label class="label-date p-2" for="date">Jour de la réservation :</label>
+                        <input type="date" class="input-date" id="date">
+                      </div>
+                      <div class="heure">
+                        <label class="p-2" for="heure">Heure de la réservation :</label>
+                        <select class="select-heure" id="heure" name="heure"> 
+                        <option value="12:00">12:00</option>
+                        <option value="12:30">12:30</option>
+                        <option value="13:00">13:00</option>
+                        <option value="13:30">13:30</option>
+                        <option value="13:30">14:00</option>
+                        <option value="19:00">19:00</option>
+                        <option value="19:30">19:30</option>
+                        <option value="20:00">20:00</option>
+                        <option value="20:30">20:30</option>
+                        <option value="19:30">21:00</option>
+                        <option value="20:00">21:30</option>
+                        <option value="20:30">22:00</option>
+                      </select>
+                    </div> 
+                    </div>
 
                     <div class="mb-3 p-2">
                       <label for="exampleInputEmail1" class="form-label">Mentionnez vos allergies :</label>
