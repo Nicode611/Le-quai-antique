@@ -280,6 +280,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: transparent;
 }
 
 .carte-sections {
@@ -291,6 +292,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: transparent;
 }
 
 .carte-menu-titles {
@@ -306,6 +308,7 @@ footer {
 
 .carte-desserts {
     padding-bottom: 150px;
+    background-color: transparent;
 }
 
 
@@ -407,8 +410,20 @@ footer {
 /*----espace-perso.html----*/
 
 
+.espace-perso-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+}
 
-
+.espace-perso-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1ECE2;
+}
 
 
 

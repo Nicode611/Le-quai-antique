@@ -33,7 +33,51 @@
       </header>
       <main>
         <div class="espace-perso-container">
-            
+            <h2 class="sign-form-title">Espace personnel :</h2>
+            <p>Modifiez vos informations personnelles</p>
+            <div class="espace-perso-main-content">
+                <form class="sign-form-form p-5">
+                    <div class="row mb-3 p-2">
+                      <div class="col-auto">
+                        <label for="exampleInputEmail1" class="form-label">Prénom :</label>
+                        <input type="text" class="form-control" id="prenom">
+                      </div>
+                      <div class="col-auto">
+                        <label  class="form-label">Nom :</label>
+                        <input type="text" class="form-control" id="nom">
+                      </div>
+                    </div>
+                    <div class="mb-3 p-2">
+                      <label for="exampleInputEmail1" class="form-label">Téléphone :</label> <!-- === 10num -->
+                      <input type="text" class="form-control" id="telephone">
+                    </div>
+                    <div class="mb-3 p-2">
+                      <label for="exampleFormControlInput1" class="form-label">Email :</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="row align-items-center mb-3 p-2">
+                      <label for="inputPassword6" class="form-label">Mot de passe :</label>
+                      <div class="col-auto">
+                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                      </div>
+                      <div class="col-auto">
+                        <span id="passwordHelpInline" class="form-text">
+                          Entre 8 et 20 caractères.
+                        </span>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Allergies :</label>
+                      <textarea class="form-control" id="allergiesFormControlTextarea2" rows="3"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center pt-4">
+                      <a href="./espace-perso.html">Espace perso</a>
+                      <fieldset enabled>
+                        <button type="submit" class="btn btn-primary">Valider</button>
+                      </fieldset>
+                    </div>
+                </form>
+            </div>
         </div>
       </main>
       <footer id="footer">
