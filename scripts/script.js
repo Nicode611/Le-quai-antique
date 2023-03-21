@@ -18,6 +18,7 @@ rangeInput.addEventListener("input", function() {
 });
 
 //----------------------------------------------------------------------
+
 const dateInput = document.querySelector('.input-date');
 const myFieldset = document.getElementById("form-btn-fieldset");
 
