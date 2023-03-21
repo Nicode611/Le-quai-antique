@@ -13,7 +13,5 @@ const personNumber = document.querySelector('.person-number');
 
 rangeInput.addEventListener("input", function() {
   var rangeValue = rangeInput.value;
-  (console.log(rangeValue))
+  personNumber.innerText = rangeValue;
 });
-
-personNumber.innerText = rangeValue;

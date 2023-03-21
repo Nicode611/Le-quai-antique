@@ -144,6 +144,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: auto;
 }
 
 .middle {
@@ -170,15 +171,14 @@ main {
 }
 
 .galerie {
-    height: 500px;
+    height: 600px;
     overflow: hidden;
 }
 
 .galerie-item {
-    height: auto;
-    width: 100%; /* 100% de la largeur pour s'adapter au carré */
-    /* margin-top:; décale l'image de 50% vers le haut pour afficher le centre */
-    position: relative; /* pour que la marge n'affecte pas la position de l'image */
+    height: 30vw;
+    width: 100%;
+    position: sticky;
 }
 
 .container-bottom {
@@ -482,6 +482,10 @@ footer {
       box-shadow: 0px 0px 10px black;
       position: sticky;
       right: 5px;
+    }
+
+    .container-middle {
+        flex-direction: column;
     }
 
     /*----carte.html----*/
