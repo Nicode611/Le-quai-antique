@@ -181,6 +181,18 @@ main {
     position: sticky;
 }
 
+.caption-container {
+    border-radius: 5px;
+    background-color: rgba(241, 236, 226, 0.6);
+    border: #5A3E29 solid 2px;
+    border-right: none;
+    border-bottom: none;
+}
+
+.caption-container h5, .caption-container p {
+    background: transparent;
+}
+
 .container-bottom {
     display: flex;
     justify-content: flex-start;
