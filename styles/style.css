@@ -340,6 +340,11 @@ footer {
     padding: 5vw;
 }
 
+.person-number {
+    font-size: large;
+    font-weight: 600;
+}
+
 .reserver-title {
     text-align: center;
     font-weight: 600;
