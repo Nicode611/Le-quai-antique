@@ -39,25 +39,25 @@
                   <div class="row mb-3 p-2">
                     <div class="col-auto">
                       <label for="exampleInputEmail1" class="form-label">Prénom :</label>
-                      <input type="text" class="form-control" id="prenom">
+                      <input type="text" class="form-control sign-form-prenom" id="prenom" required>
                     </div>
                     <div class="col-auto">
                       <label for="exampleInputEmail1" class="form-label">Nom :</label>
-                      <input type="text" class="form-control" id="nom">
+                      <input type="text" class="form-control sign-form-nom" id="nom" required>
                     </div>
                     </div>
                     <div class="mb-3 p-2">
                       <label for="exampleInputEmail1" class="form-label">Téléphone :</label> <!-- === 10num -->
-                      <input type="text" class="form-control" id="telephone">
+                      <input type="text" class="form-control sign-form-telephone" id="telephone" required>
                     </div>
                     <div class="mb-3 p-2">
                       <label for="exampleFormControlInput1" class="form-label">Email :</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <input type="email" class="form-control sign-form-email" id="exampleFormControlInput1" placeholder="name@example.com" required>
                     </div>
                     <div class="row align-items-center mb-3 p-2">
                       <label for="inputPassword6" class="form-label">Mot de passe :</label>
                     <div class="col-auto">
-                      <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                      <input type="password" id="inputPassword6" class="form-control sign-form-password" aria-describedby="passwordHelpInline" required>
                     </div>
                     <div class="col-auto">
                       <span id="passwordHelpInline" class="form-text">
@@ -67,9 +67,7 @@
                   </div>
                     <div class="d-flex justify-content-center pt-4">
                       <a href="./espace-perso.html">Espace perso</a>
-                      <fieldset enabled>
                           <button type="submit" class="btn btn-primary">Valider</button>
-                      </fieldset>
                     </div>
                   </form>
             </div>
