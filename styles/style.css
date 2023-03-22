@@ -182,7 +182,7 @@ main {
 }
 
 .caption-container {
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: rgba(241, 236, 226, 0.6);
     border: #5A3E29 solid 2px;
     border-right: none;
@@ -205,27 +205,6 @@ main {
     font-size: 32px;
     font-family: 'OPTINaval';
     padding-top: 70px;
-}
-
-
-.horaires-container {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.voir-horaires {
-    margin: 0px;
-    line-height: 1.20rem;
-}
-
-.triangle {
-    height: 30px;
-    width: 70px;
-    transform: scaleY(-1);
-    margin-bottom: 11px;
 }
 
 .click-horaires:hover, .logo:hover {
@@ -508,6 +487,11 @@ footer {
     /*----carte.html----*/
 
     .carte-title {
+        padding-top: 70px;
+    }
+
+
+    .reserver-main-content {
         padding-top: 70px;
     }
 
