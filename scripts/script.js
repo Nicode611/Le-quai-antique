@@ -35,13 +35,11 @@ dateInput.addEventListener('change', isValid);
 
 //----------------------------------------------------------------------
 
-// Récupération des éléments HTML du formulaire
 const form = document.querySelector('form');
 const requiredInputs = form.querySelectorAll('[required]');
 const submitBtn = form.querySelector('button[type="submit"]');
 const passwordInput = document.querySelector('input[type="password"]');
 
-// Ajout d'un écouteur d'événement sur chaque champ requis pour vérifier si tous les champs ont été remplis
 requiredInputs.forEach(input => {
   input.addEventListener('input', checkInputs);
 });
@@ -54,8 +52,6 @@ function checkInputs() {
     }
   });
   
-
-  // Activation ou désactivation du bouton de soumission selon si tous les champs ont été remplis ou non
   if (allInputsFilled) {
     submitBtn.removeAttribute('disabled');
   } else {
