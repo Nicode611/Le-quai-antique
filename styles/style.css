@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'OPTINaval';
-    src:url('OPTINaval.ttf.woff') format('woff'),
-        url('OPTINaval.ttf.svg#OPTINaval') format('svg'),
-        url('OPTINaval.ttf.eot'),
-        url('OPTINaval.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
 main * {
     background-color: #F1ECE2;
 }
@@ -111,7 +101,7 @@ main {
     color: #677423;
     background-color: transparent;
     font-size: 32px;
-    font-family: 'OPTINaval';
+    font-family: 'IM Fell Great Primer SC', serif;
     padding: 20px;
     padding-bottom: 50px;
 }
