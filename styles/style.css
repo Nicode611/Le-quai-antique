@@ -258,6 +258,15 @@ footer {
     font-weight: 600;
 }
 
+.card-carte {
+    height: 200px;
+    width: 75%;
+    background-color: #5A3E29;
+    opacity: 1;
+    background-image: radial-gradient(#835938 0.55px, #5A3E29 0.55px);
+    background-size: 11px 11px;
+}
+
 .carte-titles {
     color: #677423;
 }
