@@ -140,7 +140,7 @@ main {
 .middle {
     font-size: 28px;
     margin: 0px;
-    font-family: 'OPTINaval';
+    font-family: 'IM Fell Great Primer', serif;
 }
 
 .middle-line {
@@ -193,7 +193,7 @@ main {
 .bottom {
     color: #677423;
     font-size: 32px;
-    font-family: 'OPTINaval';
+    font-family: 'IM Fell Great Primer SC', serif;
     padding-top: 70px;
 }
 
