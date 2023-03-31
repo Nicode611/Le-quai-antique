@@ -155,7 +155,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 47vw;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -176,7 +176,7 @@ main {
 }
 
 .galerie {
-    height: 47vw;
+    height: 50vw;
     overflow: hidden;
 }
 
@@ -565,6 +565,14 @@ input[type="range"]::-webkit-slider-thumb {
 
     .reserver-main-content {
         padding-top: 70px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-contact {
+        margin-top: 20px;
     }
 
   }
