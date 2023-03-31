@@ -558,7 +558,7 @@ input[type="range"]::-webkit-slider-thumb {
 
     /*----carte.html----*/
 
-    .carte-title {
+    .carte-title, .sign-form-title {
         padding-top: 70px;
     }
 
