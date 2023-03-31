@@ -499,8 +499,9 @@ input[type="range"]::-moz-range-track {
 .reserver-form-btn {
     background-color: #5A3E29;
     color: #F1ECE2;
-    padding: 5px;
+    padding: 7px;
     border-radius: 7px;
+    border: none;
 }
 
 /*----sign-form.html----*/

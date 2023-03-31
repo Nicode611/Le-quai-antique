@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
   logo.classList.toggle('show');
 });
 
-//----------------------------------------------------------------------
+//---------------------------------Set number with input="range"-------------------------------------
 
 const rangeInput = document.querySelector('.form-range');
 const personNumber = document.querySelector('.person-number');
@@ -17,16 +17,15 @@ rangeInput.addEventListener("input", function() {
   personNumber.innerText = rangeValue;
 });
 
-//----------------------------------------------------------------------
+//---------------------------------Fieldset reserver-form-btn active-------------------------------------
 
+const nomInput = document.querySelector('#form-nom')
 const dateInput = document.querySelector('.input-date');
 const myFieldset = document.getElementById("form-btn-fieldset");
 
 const isValid = () => {
-  if (rangeInput.value != 0 && dateInput.value !== '') {
-    console.log('oui');
-    myFieldset.disabled = false;
-    
+  if (rangeInput.value != 0 && dateInput.value !== '' && nomInput.value !== '') {
+    myFieldset.disabled = false;  
   }
 }
 
