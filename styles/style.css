@@ -524,6 +524,7 @@ input[type="range"]::-webkit-slider-thumb {
   
     nav ul.show {
       display: flex;
+      padding-top: 50px;
       border-top: solid 3px #F1ECE2;
       border-bottom: solid 3px #F1ECE2;
     }
@@ -532,8 +533,8 @@ input[type="range"]::-webkit-slider-thumb {
       margin: 10px 0;
     }
 
-    .navbar-li {
-        border-left: 2px solid #F1ECE2;
+    .navbar-li-connect {
+        border-top: 2px solid #F1ECE2;
         padding-left: 10px;
         list-style-type: disc;
     }
