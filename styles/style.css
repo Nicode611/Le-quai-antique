@@ -236,6 +236,13 @@ footer {
     box-shadow: -5px 0px 20px;
 }
 
+#horaires {
+    background-color: #F1ECE2;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
 .footer-title {
     text-align: center;
     font-family: 'IM Fell Great Primer SC', serif;
