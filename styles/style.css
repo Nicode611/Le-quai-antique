@@ -160,9 +160,20 @@ main {
     padding-bottom: 50px;
 }
 
-/*.container-carousel:hover {
-    .container-title
-}*/
+.galerie-item:hover .carousel-title * {
+    display: block;
+}
+
+.carousel-title * {
+    display: none;
+    font-family: 'IM Fell Great Primer', serif;
+    padding: 5px;
+    margin: 10px;
+    background-color: #5A3E29;
+    color: #F1ECE2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
 
 .galerie {
     height: 47vw;
