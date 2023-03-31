@@ -160,9 +160,18 @@ main {
     padding-bottom: 50px;
 }
 
+/*.container-carousel:hover {
+    .container-title
+}*/
+
 .galerie {
-    height: 600px;
+    height: 47vw;
     overflow: hidden;
+}
+
+.galerie-img {
+    height: 40vw;
+    width: 100%;
 }
 
 .galerie-item {
@@ -216,11 +225,51 @@ footer {
     box-shadow: -5px 0px 20px;
 }
 
-.section-footer {
+.footer-title {
+    text-align: center;
+    font-family: 'IM Fell Great Primer SC', serif;
+    color: #F1ECE2;
+}
+
+.footer-horaires {
     text-align: center;
     color: #F1ECE2;
 }
 
+.footer-container-follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-contact {
+    display: flex;
+}
+
+.footer-contact-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #F1ECE2;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.footer-contact-button:hover {
+    box-shadow: 0px 0px 10px black;
+}
 
 /*----carte.html----*/
 
