@@ -36,12 +36,21 @@
       </header>
       <main>
         <div class="reserver-main-content">
-            <h2 class="reserver-title">Reservez votre table</h2>
+            <h2 class="reserver-title page-title">Reservez votre table</h2>
             <div class="reserver-container">
-                <form class="reserver-form p-5">
-                    <label for="customRange2" class="range">Nombre de personnes : <span class="person-number"></span></label>
-                    <input type="range" class="form-range range" min="1" max="10" id="customRange2">
-                    <div class="time">
+                <form class="reserver-form">
+                    <div class="reserver-form-infos">
+                      <div class="reserver-form-nom">
+                        <label for="form-nom">Nom :</label>
+                        <input type="text" id="form-nom">
+                      </div>
+                      <div class="reserver-form-tel">
+                        <label for="form-tel">Telephone :</label>
+                        <input type="text" id="form-tel">
+                      </div>
+                    </div>
+                    <label for="form-range-nmb" class="range">Nombre de personnes : <span class="person-number"></span></label>
+                    <input type="range" class="form-range range" min="1" max="10" id="form-range-nmb">
                       <div class="date">
                         <label class="label-date p-2" for="date">Jour de la réservation :</label>
                         <input type="date" class="input-date" id="date">
@@ -49,27 +58,26 @@
                       <div class="heure">
                         <label class="p-2" for="heure">Heure de la réservation :</label>
                         <select class="select-heure" id="heure" name="heure"> 
-                        <option value="12:00">12:00</option>
-                        <option value="12:30">12:30</option>
-                        <option value="13:00">13:00</option>
-                        <option value="13:30">13:30</option>
-                        <option value="13:30">14:00</option>
-                        <option value="19:00">19:00</option>
-                        <option value="19:30">19:30</option>
-                        <option value="20:00">20:00</option>
-                        <option value="20:30">20:30</option>
-                        <option value="19:30">21:00</option>
-                        <option value="20:00">21:30</option>
-                        <option value="20:30">22:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="12:30">12:30</option>
+                          <option value="13:00">13:00</option>
+                          <option value="13:30">13:30</option>
+                          <option value="13:30">14:00</option>
+                          <option value="19:00">19:00</option>
+                          <option value="19:30">19:30</option>
+                          <option value="20:00">20:00</option>
+                          <option value="20:30">20:30</option>
+                          <option value="19:30">21:00</option>
+                          <option value="20:00">21:30</option>
+                          <option value="20:30">22:00</option>
                       </select>
-                    </div> 
                     </div>
-                    <div class="mb-3 p-2">
-                      <label for="exampleFormControlTextarea1" class="form-label">Allergies :</label>
-                      <textarea class="form-control" id="allergiesFormControlTextarea1" rows="3"></textarea>
+                    <div class="reserver-form-allergies">
+                      <label for="form-allergies">Allergies :</label>
+                      <textarea class=" reserver-form-textarea-allergies" id="form-allergies" rows="2"></textarea>
                     </div>
                       <fieldset id="form-btn-fieldset" disabled>
-                          <button type="submit" class="btn btn-primary">Valider la réservation</button>
+                          <button type="submit" class="reserver-form-btn">Valider la réservation</button>
                       </fieldset>
                   </form>
             </div>

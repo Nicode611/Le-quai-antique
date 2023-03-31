@@ -2,6 +2,11 @@ main * {
     background-color: #F1ECE2;
 }
 
+.page-title {
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-size: 2.2rem;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -296,14 +301,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: 'OPTINaval';
+    font-family: 'IM Fell Great Primer', serif;
 }
 
 .carte-title {
     padding-top: 20px;
     padding-bottom: 50px;
-    font-weight: 800;
-    font-size: 2.5rem;
 }
 
 .carte-titles, .carte-food-content, .carte-menu-titles, .carte-menu-content {
@@ -385,30 +388,6 @@ footer {
     padding: 5vw;
 }
 
-.person-number {
-    font-size: large;
-    font-weight: 600;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #5A3E29;
-  }
-
-.range {
-    padding: 10px;
-}
-
-.reserver-title {
-    text-align: center;
-    font-weight: 600;
-    padding-bottom: 30px;
-    font-family: 'OPTINaval';
-}
-
 .reserver-container {
     display: flex;
     justify-content: center;
@@ -418,6 +397,7 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 15px;
     padding: 1vw;
     box-shadow: 0px 0px 10px;
+    margin: 30px;
 }
 
 .reserver-form {
@@ -425,21 +405,102 @@ input[type="range"]::-webkit-slider-thumb {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 30px 30px 30px;
 }
 
-.input-date, .select-heure {
+.reserver-form label {
+    font-family: 'IM Fell Great Primer', serif;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.reserver-form input[type="text"], input[type="date"], select {
     background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
 }
 
-.date, .heure {
+.person-number {
+    font-size: large;
+    font-weight: 600;
+}
+
+.reserver-form-infos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reserver-form-nom {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.reserver-form-tel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    border-radius: 50%;
+    background-color: #5A3E29;
+    margin-top: -6px;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    appearance: none;
+    border-radius: 50%;
+    background-color: #5A3E29;
+    margin-top: -6px;
+  }
+
+.range {
     padding: 10px;
 }
 
-.time {
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color: black;
+    height: 2px;
+  }
+input[type="range"]::-moz-range-track {
+    background-color: black;
+    height: 2px;
+  }
+  
+.date, .heure {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.reserver-form-allergies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reserver-form-textarea-allergies {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    width: 45vw;
+}
+
+#form-btn-fieldset {
+    margin-top: 50px;
+}
+
+.reserver-form-btn {
+    background-color: #5A3E29;
+    color: #F1ECE2;
+    padding: 5px;
+    border-radius: 7px;
 }
 
 /*----sign-form.html----*/
@@ -454,9 +515,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .sign-form-title {
     text-align: center;
-    font-weight: 600;
     padding-bottom: 30px;
-    font-family: 'OPTINaval';
 }
 
 .sign-form-container {
@@ -465,6 +524,7 @@ input[type="range"]::-webkit-slider-thumb {
     align-items: center;
     background-color: #F1ECE2;
     border: solid 5px #5A3E29;
+    box-shadow: 0px 0px 10px black;
     border-radius: 15px;
     padding: 1vw;
 }
