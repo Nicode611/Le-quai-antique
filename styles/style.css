@@ -1,3 +1,5 @@
+/*-----Global----*/
+
 main * {
     background-color: #F1ECE2;
 }
@@ -6,6 +8,11 @@ main * {
     font-family: 'IM Fell Great Primer SC', serif;
     font-size: 2.2rem;
 }
+
+
+
+
+/*-----Header----*/
 
 header {
     display: flex;
@@ -24,6 +31,10 @@ header {
     width: 200px;
     position: absolute;
     left: 10px;
+}
+
+.logo:hover {
+    zoom: 102%;
 }
 
 .nav-container {
@@ -58,6 +69,10 @@ nav, ul {
     font-size: 1.3rem;
 }
 
+.navbar-a:hover {
+    text-shadow: 0px 0px 10px;
+}
+
 .container-connect {
     position: absolute;
     right: 20px;
@@ -87,7 +102,7 @@ nav, ul {
     text-decoration: none;
 }
 
-/*----content-index.html----*/
+/*----index.html----*/
 
 main {
     padding-top: 130px;
@@ -110,7 +125,6 @@ main {
     padding: 20px;
     padding-bottom: 50px;
 }
-
 
 .diapo {
     height: 250px;
@@ -222,77 +236,8 @@ main {
     padding-top: 70px;
 }
 
-.click-horaires:hover, .logo:hover {
-    zoom: 102%;
-}
 
-.click-horaires {
-    color: #5A3E29;
-    text-decoration: none;
-}
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #5A3E29;
-    opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #5A3E29 40px ), repeating-linear-gradient( #49322055, #493220 );
-    padding: 20px;
-    box-shadow: -5px 0px 20px;
-}
-
-#horaires {
-    background-color: #F1ECE2;
-    padding: 10px;
-    border-radius: 10px;
-    color: black;
-}
-
-.footer-title {
-    text-align: center;
-    font-family: 'IM Fell Great Primer SC', serif;
-    color: #F1ECE2;
-}
-
-.footer-horaires {
-    text-align: center;
-    color: #F1ECE2;
-}
-
-.footer-container-follow {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer-follow {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-logo {
-    height: 30px;
-    width: 30px;
-}
-
-.footer-contact {
-    display: flex;
-}
-
-.footer-contact-button {
-    border: none;
-    border-radius: 5px;
-    background-color: #F1ECE2;
-    padding: 5px;
-    margin-left: 10px;
-}
-
-.footer-contact-button:hover {
-    box-shadow: 0px 0px 10px black;
-}
 
 /*----carte.html----*/
 
@@ -372,10 +317,6 @@ footer {
 }
 
 
-
-.navbar-a:hover {
-    text-shadow: 0px 0px 10px;
-}
 
 
 /*----reserver.html----*/
@@ -504,6 +445,9 @@ input[type="range"]::-moz-range-track {
     border: none;
 }
 
+
+
+
 /*----sign-form.html----*/
 
 .sign-form-main-content {
@@ -543,6 +487,8 @@ input[type="range"]::-moz-range-track {
 }
 
 
+
+
 /*----espace-perso.html----*/
 
 
@@ -564,8 +510,79 @@ input[type="range"]::-moz-range-track {
 
 
 
+/*----Footer----*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5A3E29;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #5A3E29 40px ), repeating-linear-gradient( #49322055, #493220 );
+    padding: 20px;
+    box-shadow: -5px 0px 20px;
+}
+
+#horaires {
+    background-color: #F1ECE2;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.footer-title {
+    text-align: center;
+    font-family: 'IM Fell Great Primer SC', serif;
+    color: #F1ECE2;
+}
+
+.footer-horaires {
+    text-align: center;
+    color: #F1ECE2;
+}
+
+.footer-container-follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-contact {
+    display: flex;
+}
+
+.footer-contact-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #F1ECE2;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.footer-contact-button:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+
+/*-----Responsive----*/
 
 @media screen and (max-width: 980px) {
+
+    /*----Header----*/
 
     header {
         justify-content: flex-end;
@@ -627,14 +644,34 @@ input[type="range"]::-moz-range-track {
 
     /*----carte.html----*/
 
+    .carte-main-content {
+        flex-direction: column;
+    }
+
     .carte-title, .sign-form-title {
         padding-top: 70px;
     }
 
+    .carte-menu-sections {
+        margin: 30px;
+        width: 80vw;
+    }
+
+    /*----reserver.html----*/
 
     .reserver-main-content {
         padding-top: 70px;
     }
+
+    .reserver-form-infos {
+        flex-direction: column;
+    }
+
+    .reserver-form-tel {
+        margin-top: 0px;
+    }
+
+    /*----Footer----*/
 
     footer {
         flex-direction: column;
