@@ -146,19 +146,20 @@ main {
     text-align: center;
     padding: 30px;
     padding-top: 100px;
+    
 }
 
 .container-text {
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: auto;
+    height: 100%;
 }
 
 .middle {
     font-size: 28px;
-    margin: 0px;
     font-family: 'IM Fell Great Primer', serif;
 }
 
@@ -233,7 +234,6 @@ main {
     color: #677423;
     font-size: 32px;
     font-family: 'IM Fell Great Primer SC', serif;
-    padding-top: 70px;
 }
 
 
