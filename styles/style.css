@@ -263,13 +263,10 @@ main {
     font-weight: 600;
 }
 
-.card-carte {
-    height: 200px;
-    width: 75%;
-    background-color: #5A3E29;
-    opacity: 1;
-    background-image: radial-gradient(#835938 0.55px, #5A3E29 0.55px);
-    background-size: 11px 11px;
+.carte-carte {
+    width: 50vw;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 10px black;
 }
 
 .carte-titles {
@@ -303,12 +300,24 @@ main {
 .carte-menu-titles {
     padding: 10px;
     background-color: transparent;
+    color: #F1ECE2;
+    font-weight: 500;
 }
 
 .carte-menu-sections {
     border: solid 2px #5A3E29;
+    background-color: #5A3E29;
+    opacity: 1;
+    background-image: radial-gradient(#6a513e 1.1px, #5A3E29 1.1px);
+    background-size: 22px 22px;
     border-radius: 10px;
     width: 100%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.carte-menu-content {
+    background-color: transparent;
+    color: #F1ECE2;
 }
 
 .carte-desserts {
@@ -654,6 +663,10 @@ footer {
 
     .carte-menu-sections {
         margin: 30px;
+        width: 80vw;
+    }
+
+    .carte-carte {
         width: 80vw;
     }
 
