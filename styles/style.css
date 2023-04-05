@@ -24,6 +24,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
+    position: absolute;
 }
 
 .logo {
@@ -518,6 +519,32 @@ input[type="range"]::-moz-range-track {
 
 
 
+/*----Dashboard-admin.html----*/
+
+.dashboard-admin-container {
+    display: flex;
+}
+
+.dash-menu-lateral * {
+    background-color: #5A3E29;
+    color: #F1ECE2;
+}
+
+.dash-menu-lateral {
+    background-color: #5A3E29;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    top: 50; /* la hauteur de votre header */
+    bottom: 0;
+    z-index: 2;
+    width: 20vw;
+}
+
+
 
 /*----Footer----*/
 
@@ -583,7 +610,6 @@ footer {
 .footer-contact-button:hover {
     box-shadow: 0px 0px 10px black;
 }
-
 
 
 
