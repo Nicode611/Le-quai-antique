@@ -41,24 +41,24 @@
 		<div class="dash-menu-lateral">
 			<div class="dash-reservations dash-categories">
 				<img src="./images/icon-reservation.png">
-        <span>Reservations</span>
+        <span class="dash-categorie-name" >Reservations</span>
 			</div>
 			<div class="dash-galerie dash-categories">
 				<img src="./images/icon-galerie.png">
-        <span>Galerie</span>
+        <span class="dash-categorie-name" >Galerie</span>
 			</div>
 			<div class="dash-carte dash-categories">
 				<img src="./images/icon-carte.png">
-        <span>Carte</span>
+        <span class="dash-categorie-name" >Carte</span>
 			</div>
 			<div class="dash-horaires dash-categories">
 				<img src="./images/icon-horaires.png">
-        <span>Horaires</span>
+        <span class="dash-categorie-name" >Horaires</span>
 			</div>
 		</div>
 <!--Main content-->
 <!--Reservations-->
-    <div class="dash-reservations-main-content">
+    <div class="dash-main-content dash-reservations-main-content">
       <h2 class="dash-content-title">Reservations</h2>
       <div class="dash-reservations-container">
         <h3>15/04/2023</h3>
@@ -68,7 +68,7 @@
       </div>
     </div>
 <!--Galerie-->
-<div class="dash-galerie-main-content">
+<div class="dash-main-content dash-galerie-main-content">
   <h2 class="dash-content-title">Galerie</h2>
   <div class="dash-galerie-container">
     <div class="dash-galerie-carousel">
@@ -77,16 +77,52 @@
   </div>
 </div>
 <!--Carte-->
-<div class="dash-carte-main-content">
+<div class="dash-main-content dash-carte-main-content">
   <h2 class="dash-content-title">La carte</h2>
   <div class="dash-carte-container">
-    <div class="dash-carte-carousel">
+    <div class="dash-carte-choose-container">
+      <div class="dash-carte-carte">
+        <img id="dash-carte-img" src="./images/carte.jpg">
+      </div>
+      <button id="dash-import-carte-btn" type="button">Importer l'image</button>
     </div>
-    <input id="dash-carte-modif" type="text">
+    <div class="dash-carte-menus-container">
+      <div class="dash-carte-line dash-carte-line-1">
+        <div class="dash-carte-menu-container dash-menu-1">
+          <h3>Menu 1</h3>
+          <p>
+            Terrine de campagne ou<br>
+            soupe à l'oignon gratinée<br>
+            Blanquette de veau avec riz pilaf<br>
+            Sorbet du jour
+          </p>
+        </div>
+        <div class="dash-carte-menu-container dash-menu-2">
+          <h3>Menu 2</h3>
+          <p>
+            Terrine de campagne ou<br>
+            soupe à l'oignon gratinée<br>
+            Blanquette de veau avec riz pilaf<br>
+            Sorbet du jour
+          </p>
+        </div>
+      </div>
+      <div class="dash-carte-line dash-carte-line-2">
+        <div class="dash-carte-menu-container dash-menu-3">
+          <h3>Menu 3</h3>
+          <p>
+            Terrine de campagne ou<br>
+            soupe à l'oignon gratinée<br>
+            Blanquette de veau avec riz pilaf<br>
+            Sorbet du jour
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <!--Horaires-->
-<div class="dash-horaires-main-content">
+<div class="dash-main-content dash-horaires-main-content">
   <h2 class="dash-content-title">Horaires</h2>
   <div class="dash-horaires-container">
     <p id="horaires-modif">

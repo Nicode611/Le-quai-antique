@@ -555,6 +555,11 @@ input[type="range"]::-moz-range-track {
     cursor: pointer;
 }
 
+.dash-main-content {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .dash-content-title {
     padding: 30px;
 }
@@ -565,7 +570,6 @@ input[type="range"]::-moz-range-track {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
 }
 
 .dash-reservations-container {
@@ -598,7 +602,7 @@ input[type="range"]::-moz-range-track {
 }
 
 .dash-reservations-main-content {
-    display: flex;
+    display: none;
 }
 
 /*----Galerie----*/
@@ -607,7 +611,6 @@ input[type="range"]::-moz-range-track {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
 }
 
 .dash-galerie-container {
@@ -648,11 +651,68 @@ input[type="range"]::-moz-range-track {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
 }
 
+.dash-carte-container {
+    display: flex;
+}
+
+.dash-carte-menus-container {
+    display: flex;
+}
+
+.dash-carte-choose-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.dash-carte-carte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 40vw;
+    border: solid 1px black;
+}
+    
+#dash-carte-img {
+    height: 100%;
+    width: 60%;
+}
+
+#dash-import-carte-btn {
+    background-color: #5A3E29;
+    color: #F1ECE2;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+.dash-carte-menus-container {
+    margin: 2vw;
+}
+
+.dash-carte-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 3px #5A3E29;
+    text-align: center;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 5px;
+    max-height: 241px;
+}
+
+
+
 .dash-carte-main-content {
-    display: none;
+    display: flex;
 }
 
 /*----Horaires----*/
@@ -661,7 +721,6 @@ input[type="range"]::-moz-range-track {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
 }
 
 .dash-horaires-container {
@@ -847,6 +906,23 @@ footer {
 
     .reserver-form-tel {
         margin-top: 0px;
+    }
+
+    /*----Dashboard-admin----*/
+
+    .dash-categories, .dash-categories img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .dash-categorie-name {
+        display: none;
+    }
+
+    .dash-carte-container {
+        flex-direction: column;
     }
 
     /*----Footer----*/
