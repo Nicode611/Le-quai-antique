@@ -709,12 +709,23 @@ input[type="range"]::-moz-range-track {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: solid 3px #5A3E29;
+    border: solid 2px #5A3E29;
+    background-color: #5A3E29;
     text-align: center;
-    border-radius: 7px;
+    opacity: 1;
+    background-image: radial-gradient(#6a513e 1.1px, #5A3E29 1.1px);
+    background-size: 22px 22px;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 273px;
+    box-shadow: 0px 0px 10px black;
     margin: 20px;
-    padding: 5px;
-    max-height: 241px;
+    padding: 10px;
+}
+
+.dash-carte-menu-container * {
+    background: transparent;
+    color: #F1ECE2;
 }
 
 .dash-carte-add-menu-container {
@@ -740,6 +751,7 @@ input[type="range"]::-moz-range-track {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 70vh;
     width: 100%;
 }
 
@@ -749,10 +761,10 @@ input[type="range"]::-moz-range-track {
     justify-content: center;
     align-items: center;
     border: solid 5px #5A3E29;
+    text-align: center;
+    padding: 10vw;
     box-shadow: 0px 0px 10px black;
     border-radius: 15px;
-    height: 70%;
-    width: 60%;
 }
 .dash-horaires-container *, .dash-horaires-container {
     background-color: transparent;
