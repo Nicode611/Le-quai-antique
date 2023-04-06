@@ -57,5 +57,3 @@ function checkInputs() {
     submitBtn.setAttribute('disabled', 'disabled');
   }
 }
-
-
