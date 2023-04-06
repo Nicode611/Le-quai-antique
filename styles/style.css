@@ -693,7 +693,15 @@ input[type="range"]::-moz-range-track {
 }
 
 .dash-carte-menus-container {
+    display: flex;
+    flex-direction: column;
     margin: 2vw;
+}
+
+.dash-carte-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .dash-carte-menu-container {
@@ -707,6 +715,18 @@ input[type="range"]::-moz-range-track {
     margin: 20px;
     padding: 5px;
     max-height: 241px;
+}
+
+.dash-carte-add-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.dash-carte-add-menu {
+    border: solid 1px black;
+    padding: 5px;
 }
 
 
