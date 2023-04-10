@@ -634,11 +634,15 @@ input[type="range"]::-moz-range-track {
     margin: 2vw;
 }
 
+.dash-galerie-modif-label {
+    font-weight: 600;
+}
+
 #dash-galerie-modif {
     background-color: white;
-    border: none;
+    border: solid 1px black;
     height: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -969,3 +973,12 @@ footer {
 
   }
 
+@media screen and (max-width: 875px) {
+    .dash-carte-menus-container > .dash-carte-line{
+        flex-direction: column;
+    }
+
+    .dash-carte-menus-container {
+        width: 80vw;
+    }
+}
