@@ -38,3 +38,24 @@ horairesCat.addEventListener('click', () => {
     horairesContent.style.display = 'flex';
 });
   
+//---------------------------------Add one reservation-------------------------------------
+
+const resAddBtn = document.querySelector('#dash-btn-add');
+const resContainer = document.querySelector('.dash-reservations-tab');
+
+let createReservation = () => {
+    let newReservation = document.createElement('div');
+    newReservation.innerHTML = `
+    <div class="dash-reservation-container">
+      <div id="reservation-name" class="dash-reservation-name"></div>
+      <div id="reservation-tel" class="dash-reservation-tel"></div>
+      <div id="reservation-num" class="dash-reservation-num"></div>
+      <div id="reservation-day" class="dash-reservation-day"></div>
+      <div id="reservation-time" class="dash-reservation-time"></div>
+      <div id="reservation-allergies" class="dash-reservation-allergies"></div>
+    </div>
+    `
+    resContainer.appendChild(newReservation);
+}
+
+resAddBtn.addEventListener('click', createReservation);

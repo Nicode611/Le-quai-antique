@@ -597,6 +597,12 @@ input[type="range"]::-moz-range-track {
     border: solid 2px #000000;
 }
 
+.dash-reservation-container {
+    height: 70px;
+    width: 100%;
+    background-color: gray;
+}
+
 #dash-reservations-date {
     margin: 40px;
 }
