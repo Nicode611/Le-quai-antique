@@ -858,11 +858,6 @@ footer {
 
     /*----Header----*/
 
-    .logo {
-        height: 140px;
-        width: 140px;
-    }
-
     header {
         justify-content: flex-end;
     }
